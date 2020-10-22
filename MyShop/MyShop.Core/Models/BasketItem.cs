@@ -11,11 +11,7 @@ namespace MyShop.Core.Models
         public string BasketId { get; set; }
         public string ProductId { get; set; }
         public int Quantity { get; set; }
-        public static class Cultures
-        {
-            public static readonly CultureInfo UnitedKingdom =
-                CultureInfo.GetCultureInfo("en-GB");
-        }
+        
     }
 
 }
